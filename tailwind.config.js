@@ -8,6 +8,45 @@ export default {
     "./*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    // Arbitrary background colors used in components
+    'bg-[#FF9800]',
+    'bg-[#1E1E1E]',
+    'bg-[#2563EB]',
+    'bg-[#93C5FD]',
+    'bg-[#EF4444]',
+    'bg-[#2979FF]',
+    // Dark mode variants
+    'dark:bg-[#1E1E1E]',
+    'dark:border-[#1E1E1E]',
+    // Text colors
+    'text-[#2563EB]',
+    'text-[#EF4444]',
+    // Border colors
+    'border-[#2563EB]',
+    // Focus states
+    'focus:border-[#2563EB]',
+    // Hover states
+    'hover:bg-[#2563EB]',
+    // Ring offset
+    'dark:ring-offset-[#1E1E1E]',
+    // Transform classes
+    '-translate-x-full',
+    'translate-x-0',
+    // Shadow classes
+    'shadow-lg',
+    'shadow-2xl',
+    'shadow-md',
+    'shadow-sm',
+    'shadow-orange-500/30',
+    // Z-index
+    'z-[70]',
+    'z-[60]',
+    // Width
+    'w-[300px]',
+    // Gradient
+    'to-[#2a3627]',
+  ],
   darkMode: "class",
   theme: {
     extend: {
